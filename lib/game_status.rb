@@ -63,4 +63,5 @@ def winner(board)
   elsif idx == "O"
     return "O"
   else return nil
+  end
 end
