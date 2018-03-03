@@ -56,7 +56,7 @@ def over?(board)
 end
 
 def winner(board)
-  winarr = win?(board)
+  winarr = won?(board)
   idx = winarr[0]
   if idx == "X"
     return "X"
