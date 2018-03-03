@@ -56,11 +56,9 @@ def over?(board)
 end
 
 def winner(board)
-  winarr = won?(board)
-  idx = winarr[0]
-  if idx == "X"
+  if won?(board)[0] == "X"
     return "X"
-  elsif idx == "O"
+  elsif won?(board)[0] == "O"
     return "O"
   else return nil
   end
