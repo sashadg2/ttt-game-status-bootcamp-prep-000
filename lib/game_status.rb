@@ -37,6 +37,6 @@ def full?(board)
     if element != "X" && element != "O"
       return false
     end
-    return true
   end
+  return true
 end
