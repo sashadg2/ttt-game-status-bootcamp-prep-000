@@ -61,9 +61,5 @@ def winner(board)
   elsif board[won?(board)[0]] == "O"
     return "O"
   end
-
-  if draw?(board)
-    return nil
-  end
-
+  return nil
 end
